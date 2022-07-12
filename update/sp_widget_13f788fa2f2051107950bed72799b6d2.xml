@@ -14,7 +14,7 @@
 			noteTitle: c.data.title
 		}).then(function(r) {
 			
-			$rootScope.$emit('refreshNoteList', c.data.noteID);
+			$rootScope.$emit('refreshNoteList', c.data);
 			
 		});
 	}
@@ -74,14 +74,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-11 02:03:49</sys_created_on>
         <sys_id>13f788fa2f2051107950bed72799b6d2</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Notes Body</sys_name>
         <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
         <sys_update_name>sp_widget_13f788fa2f2051107950bed72799b6d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-11 20:05:23</sys_updated_on>
+        <sys_updated_on>2022-07-11 20:45:21</sys_updated_on>
         <template><![CDATA[<div class="panel panel-default" ng-show="c.data.noteID">
   <div class="panel-heading clearfix">
     <div class="row">
